@@ -6,7 +6,7 @@
 .circle {
   width: 100px;
   height: 100px;
-  background-color: #ff0000; /* Cambia el color a tu preferencia */
+  background-color: #fff; /* Cambia el color a tu preferencia */
   color: #fff;
   border-radius: 50%;
   font-size: 2rem;
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .text-container {

@@ -9,7 +9,7 @@ const Banner = (props) => {
     return (
         <div className="banner bg-dark text-center py-5">
             <div className="container">
-                <h1 className="display-4 text-white">{contentBanner}</h1>
+                <h3 className="display-4 text-white">{contentBanner}</h3>
             </div>
         </div>
     );
