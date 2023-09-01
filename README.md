@@ -3,7 +3,7 @@
 ## Capturas de Pantalla
 
 ![Pagina](home.jpg)
-![Template](notas.png)
+![Template](notas_.png)
 
 ## Descripción
 
