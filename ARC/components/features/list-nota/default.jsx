@@ -5,31 +5,31 @@
   const ListNotas = () => {
     const items = [
       {
-        heading: 'List group item 1 lalala',
-        date: '3 days ago',
-        content: 'Some content for item 1.',
-        smallPrint: 'Small print for item 1.',
-        url: 'https://www.google.com',
+        heading: 'Introduccion a python',
+        date: 'ahora',
+        content: 'Probemos algunos comandos simples de Python',
+        smallPrint: '',
+        url: 'http://localhost/Sobre-mi-yc/experiencia-yc/inicios-en-python-yessicach/?_website=rpalatam',
       },
       {
-        heading: 'List group item 2',
-        date: '5 days ago',
-        content: 'Some content for item 2.',
-        smallPrint: 'Small print for item 2.',
+        heading: 'Sobre Yessica',
+        date: 'Hace 8 dias',
+        content: 'Desarrollador Back-end con mas de 2 años de experiencia programando en python...',
+        smallPrint: '',
         url: 'http://localhost/Sobre-mi-yc/perfil-yc/desarrollador-back-end-2-years-yessicach/?_website=rpalatam',
       },
       {
-        heading: 'List group item 3 cvvvc',
-        date: '1 week ago',
-        content: 'Some content for item 3.',
-        smallPrint: 'Small print for item 3.',
+        heading: 'Experiencia en ARC xp',
+        date: 'Hace 8 dias',
+        content: 'Iniciar el proceso de aprender ARC XP ha sido un viaje emocionante ...',
+        smallPrint: '',
         url: 'http://localhost/Sobre-mi-yc/experiencia-yc/mi-experiencia-en-arc-xp-yessicach/?_website=rpalatam',
       },
     ];
   
     return (
       <div className='container-fluid'>
-        <p>Listas de notas </p>
+        <p className='px-3'>Listas de notas </p>
         <ItemNota items={items} />
       </div>
     );
